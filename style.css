@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+}
+
+
+
+:root {
+    --color-black: #040B29;
+    --color-blue: #60E1E0;
+    --color-light: #759F9B;
+    --color-border: #F8F7F7;
+    --font-staat: 'Staatliches', cursive;
+    --font-os: 'Oswald', sans-serif;
+    --font-ram: 'Rambla', sans-serif;
+
+}
+
+/*gloobal classes */
+.font-staat {
+    font: normal 400 18px var(--font-staat);
+}
+
+.font-os {
+    font: normal 300 18px var(--font-os);
+}
+
+.font-ram {
+    font: normal medium 18px var(--font-ram);
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.font-size-34 {
+    font-size: 34px;
+}
+
+.font-size-27 {
+    font-size: 27px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.bgcolor-black {
+    background-color: var(--color-black);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-dark {
+    color: var(--color-black);
+}
+
+.color-border {
+    color: var(--color-border);
+}
+
+.nav-link {
+    margin: 1rem 1rem;
+    text-transform: uppercase;
+}
+
+.navbar {
+    opacity: 1;
+
+    transition: opacity 0.5s ease;
+}
+
+.container {
+    text-align: left;
+}
+
+.margin-50 {
+    height: 50px;
+    display: block;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.nav-link:hover {
+    color: var(--color-border) !important;
+}
+
+.fas fa-bars fa-2x {
+    color: var(--color-blue) !important;
+}
+
+.container {
+    border-radius: 20%;
+}
+
+/*Site main*/
+.site-banner .banner-area {
+    background: url(./assets/laptop.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.site-banner .banner-area .author {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.site-banner .banner-area .author .author-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    background: url(./assets/Mine.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 40% 0;
+}
+
+.skill .bars p,
+.site-content .skill .bars span {
+    line-height: 10px;
+}
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footer--bg{
+    background-color: var(--color-light);
+  }
+  
+  .footer__title{
+    font-size: 30px;
+    color: var(--color-black);
+    font-family: Roboto-Light;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .footer__contact-information li{
+    display: inline-block;
+  }
+  
+  .footer__contact-information li a{
+    font-size: 15px;
+    color: var(--color-black);
+    
+  }
+  
+  .footer__contact-information .material-icons{
+    font-size: 15px;
+        position: relative;
+    top: 3px;
+  }
+  
+  .i{
+      margin-right: 10px;
+  }
+  
+  .footer__paragraph{
+    font-size: 14px;
+    color: ##12529;
+  }
+/* .contact-section{
+    background: none
+    padding: 80px 0;
+    text-align: center;
+}
+.inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+.name .email .message{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: var(--color-black);
+    margin-bottom: 40px;
+}
+.name{
+    float: left;
+    width: 270px;
+}
+.email{
+    float: right;
+    width: 270px;
+}
+.message{
+    min-width: 100%;
+    max-width: 100%;
+} */
+/* #site-main*/
