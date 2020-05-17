@@ -20,12 +20,3 @@ var typed = new Typed("#typed", {
     backSpeed: 50,
     loop: true,
 });
-var typed_2 = new Typed("#typed_2", {
-    strings: [
-        "Web Developer",
-
-    ],
-    typeSpeed: 50,
-    backSpeed: 50,
-    loop: true,
-});
